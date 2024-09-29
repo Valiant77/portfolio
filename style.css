@@ -1,0 +1,91 @@
+/* kumala website */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* about */
+section#about {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+section#about h2 {
+    margin-bottom: 20px;
+}
+
+/* project */
+section#projects {
+    padding: 40px;
+    background-color: #eaeaea;
+}
+
+.project-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* contact */
+section#contact {
+    padding: 40px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.socials a {
+    display: inline-block;
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+}
+
+.socials a img {
+    width: 40px;
+    height: 40px;
+}
+
+.socials a:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    width: 98.95%;
+}
